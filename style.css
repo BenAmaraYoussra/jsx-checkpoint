@@ -1,0 +1,187 @@
+    color: #747474 !important;
+    /* -webkit-font-smoothing: antialiased; */
+    /* border: 1px solid red; */
+  {
+  color: #747474 !important;
+  /* -webkit-font-smoothing: antialiased; */
+  /* border: 1px solid red; */
+}
+body {
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  padding: 0 10%;
+  /* background-color: #7e765419 !important; */
+}
+/* navbar part */
+.navbare {
+  padding: 0 150px !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0, 2%, 80%, 0.98);
+}
+.liste {
+  margin-left: 40%;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+}
+.docP {
+  color: #00b39b !important;
+  font-weight: 600;
+}
+.group {
+  font-weight: 600;
+}
+
+.right a {
+  font-size: 10px !important;
+}
+#about {
+  color: #00b39b !important;
+}
+
+.nav-item a:hover {
+  color: #00b39b !important;
+}
+.dropdown-menu {
+  list-style: none !important;
+  appearance: none !important;
+}
+
+/* presentation part */
+.presentation {
+  margin: 6% auto;
+  padding: 3%;
+}
+
+.presentation img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.presentation h1 {
+  text-align: center;
+  color: #00b39b !important;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  margin: 6% auto;
+}
+.grid {
+  margin: 3% 70px;
+  padding: auto;
+  font-size: 0.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* cartes part */
+.cartes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 10%;
+  padding: 2% 2% 0 2%;
+}
+.green h3,
+.blue h3,
+.black h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.green p,
+.blue p,
+.black p {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.green,
+.blue,
+.black {
+  border-radius: 3%;
+  margin: 1%;
+  padding: 2% 4%;
+}
+.green {
+  background-color: #00b39bcb;
+}
+.cartes h3,
+.cartes p {
+  color: white !important;
+}
+.vide {
+  height: 30px;
+}
+.blue {
+  background-color: #3533bccb;
+}
+.black {
+  background-color: #0f0237cb;
+}
+.selectElm {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 1px;
+  padding: 2%;
+  color: white !important;
+  font-size: 0.8em;
+}
+/* countries part */
+
+.countries {
+  margin: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 4%;
+  width: 500px;
+  height: 350px;
+  background-color: #c7c4c42b !important;
+}
+.card img {
+  /* border: 2px solid red; */
+  width: 190px;
+  height: 145px;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+.card-title {
+  font-size: small;
+  font-weight: 400;
+}
+.card-body a {
+  width: 60px;
+  height: 50px;
+  font-size: 0.6em;
+  color: #fff;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.btn.btn-primary {
+  display: inline-block;
+  text-align: center;
+  line-height: 8px;
+  width: 90px;
+  height: 20px;
+  color: #ffffff !important;
+  border-radius: 3px;
+}
+.card-title {
+  margin-right: 3%;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: #ffffff95 !important;
+}
